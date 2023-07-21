@@ -33,7 +33,7 @@
             </a>
 
             <p class="text-gray-400 leading-8 py-6 text-lg w-full sm:w-3/5">
-                {{ $article->excerpt }}
+                {{ $article->summary }}
             </p>
 
             @foreach($article->tags as $tag)
